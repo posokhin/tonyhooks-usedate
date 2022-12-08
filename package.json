@@ -1,0 +1,37 @@
+{
+  "name": "usedate",
+  "version": "1.0.0",
+  "description": "React hook for simple interaction with dates",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/posokhin/useDate.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "react hook",
+    "react hooks",
+    "react hook date",
+    "dates",
+    "get date",
+    "react date",
+    "react dates",
+    "useDate",
+    "month",
+    "year",
+    "date",
+    "hour",
+    "minute",
+    "second"
+  ],
+  "author": "Posokhin Anton <posohin7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/posokhin/useDate/issues"
+  },
+  "homepage": "https://github.com/posokhin/useDate#readme"
+}

@@ -1,0 +1,22 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["src/example"],
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ES2017",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

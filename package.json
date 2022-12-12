@@ -1,14 +1,14 @@
 {
-  "name": "usedate",
+  "name": "@tonyhooks/usedate",
   "version": "1.0.0",
   "description": "React hook for simple interaction with dates",
   "main": "index.js",
   "scripts": {
-
+    "build": "rimraf dist && tsc && copyfiles README.md package.json dist"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/posokhin/useDate.git"
+    "url": "https://github.com/posokhin/tonyhooks-usedate.git"
   },
   "keywords": [
     "react",
@@ -24,14 +24,35 @@
     "month",
     "year",
     "date",
+    "day",
     "hour",
     "minute",
-    "second"
+    "second",
+    "format",
+    "format date"
   ],
   "author": "Posokhin Anton <posohin7@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/posokhin/useDate/issues"
+    "url": "https://github.com/posokhin/tonyhooks-usedate/issues"
   },
-  "homepage": "https://github.com/posokhin/useDate#readme"
+  "homepage": "https://github.com/posokhin/tonyhooks-usedate#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.3.1",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/jest": "^29.2.4",
+    "@types/react": "^16.8.0",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "copyfiles": "^2.4.1",
+    "eslint": "^8.29.0",
+    "jest": "^29.3.1",
+    "react-test-renderer": "^16.9.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.4"
+  }
 }
